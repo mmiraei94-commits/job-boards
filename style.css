@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  height: 100hv;
+}
+body {
+  padding: 50px;
+}
+.flex-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+header button {
+  color: white;
+  background-color: #ff60a3;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  font-weight: 600;
+  border-radius: 16px;
+  border: none;
+}
+input::placeholder {
+    font-size: 17px;
+    font-weight: 400;
+    color: #21212199;
+}
