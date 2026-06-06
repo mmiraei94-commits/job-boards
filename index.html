@@ -6,25 +6,262 @@
     <title>Job Boards</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
+  <body class="flex-row-center" style="align-items: normal">
     <div>
-      <header class="flex-row">
-        <form class="flex-row header-form">
-          <div class="flex-row" id="header-input-1">
-            <img src="images/mingcute_search-line.svg" style="width: 20px; height: 20px; padding: 15px 4px 15px 8px;" alt="" />
-            <input type="text" placeholder="Find a job"/>
+      <header class="flex-row-center">
+        <form class="flex-row-center">
+          <div class="flex-row-center" id="header-input-1">
+            <img
+              src="images/mingcute_search-line.svg"
+              style="width: 20px; height: 20px; padding: 15px 4px 15px 8px"
+              alt=""
+            />
+            <input type="text" placeholder="Find a job" />
           </div>
-          <div class="flex-row" id="header-input-2">
-            <img src="images/bx_map.svg" alt="" style="width: 20px; height: 20px; padding: 15px 4px 15px 8px;"/>
-            <input type="text" placeholder="Localization" style="width: 100px;"/>
-            <img src="images/iconamoon_arrow-up-2-bold.svg" alt="" style="width: 24px; height: 24px;  padding: 15px 4px 15px 8px;"/>
+          <div class="flex-row-center" id="header-input-2">
+            <img
+              src="images/bx_map.svg"
+              alt=""
+              style="width: 20px; height: 20px; padding: 15px 4px 15px 8px"
+            />
+            <input
+              type="text"
+              placeholder="Localization"
+              style="width: 100px"
+            />
+            <img
+              src="images/iconamoon_arrow-up-2-bold.svg"
+              alt=""
+              style="width: 24px; height: 24px; padding: 15px 4px 15px 8px"
+            />
           </div>
-          </form>
-          <button style="width: 125px; height: 50px;">Search</button>
-        
+        </form>
+        <button style="width: 125px; height: 50px">Search</button>
       </header>
-      <main></main>
+      <main>
+        <div class="flex-row-center">
+          <h1>Search Results</h1>
+          <span class="span-500-16">1.100 results found</span>
+        </div>
+        <!-- row 1/3 -->
+        <!-- first box -->
+        <div class="flex-row-boxs">
+          <div class="flex-row-top main-box">
+            <div class="flex-row-center" style="padding: 20px 0 0 16px">
+              <div>
+                <img src="images/logos_netflix-icon.svg" alt="" class="icon" />
+              </div>
+              <div style="padding-left: 8px">
+                <h4>Backend .Net Developer</h4>
+                <span class="span-400-16">Neflix</span>
+              </div>
+            </div>
+            <div class="span-400-14 flex-row-job">
+              <span class="job">Fullstack</span>
+              <span class="job">Angular</span>
+              <span class="job">Azure</span>
+              <span class="job">C#</span>
+            </div>
+            <div class="flex-row-center main-info">
+              <img src="images/solar_wallet-money-outline.svg" alt="" />
+              <span class="span-500-16" style="padding: 0 111px 0 8px"
+                >$13k/month</span
+              >
+              <span class="span-400-14" style="color: #21212199"
+                >6 mins ago</span
+              >
+            </div>
+          </div>
+          <!-- second box -->
+          <div class="flex-row-top main-box">
+            <div class="flex-row-center" style="padding: 20px 0 0 16px">
+              <div>
+                <img
+                  src="images/flat-color-icons_google.svg"
+                  alt=""
+                  class="icon"
+                />
+              </div>
+              <div style="padding-left: 8px">
+                <h4>Mid Fullstack Developer</h4>
+                <span class="span-400-16">Google</span>
+              </div>
+            </div>
+            <div class="span-400-14 flex-row-job">
+              <span class="job">Fullstack</span>
+              <span class="job">Angular</span>
+              <span class="job">Azure</span>
+              <span class="job">C#</span>
+            </div>
+            <div class="flex-row-center main-info">
+              <img src="images/solar_wallet-money-outline.svg" alt="" />
+              <span class="span-500-16" style="padding: 0 111px 0 8px"
+                >$15k/month</span
+              >
+              <span class="span-400-14" style="color: #21212199"
+                >18 mins ago</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- row 2/3 -->
+        <!-- first box -->
+        <div class="flex-row-boxs">
+          <div class="flex-row-top main-box">
+            <div class="flex-row-center" style="padding: 20px 0 0 16px">
+              <div>
+                <img src="images/logos_dropbox.svg" alt="" class="icon" />
+              </div>
+              <div style="padding-left: 8px">
+                <h4>Full Stack Developer</h4>
+                <span class="span-400-16">Dropbox</span>
+              </div>
+            </div>
+            <div class="span-400-14 flex-row-job">
+              <span class="job">Fullstack</span>
+              <span class="job">React</span>
+              <span class="job">Node.js</span>
+              <span class="job">JavaScript</span>
+            </div>
+            <div class="flex-row-center main-info">
+              <img src="images/solar_wallet-money-outline.svg" alt="" />
+              <span class="span-500-16" style="padding: 0 111px 0 8px"
+                >$9k/month</span
+              >
+              <span class="span-400-14" style="color: #21212199"
+                >24 mins ago</span
+              >
+            </div>
+          </div>
+          <!-- second box -->
+          <div class="flex-row-top main-box">
+            <div class="flex-row-center" style="padding: 20px 0 0 16px">
+              <div>
+                <img src="images/bi_apple.svg" alt="" class="icon" />
+              </div>
+              <div style="padding-left: 8px">
+                <h4>IT Software Consultant</h4>
+                <span class="span-400-16">AppleApple</span>
+              </div>
+            </div>
+            <div class="span-400-14 flex-row-job">
+              <span class="job">C#</span>
+              <span class="job">SQL</span>
+              <span class="job">Azure</span>
+            </div>
+            <div class="flex-row-center main-info">
+              <img src="images/solar_wallet-money-outline.svg" alt="" />
+              <span class="span-500-16" style="padding: 0 111px 0 8px"
+                >$10k/month</span
+              >
+              <span class="span-400-14" style="color: #21212199"
+                >1 hour ago</span
+              >
+            </div>
+          </div>
+        </div>
+
+        <!-- row 3/3 -->
+        <!-- first box -->
+        <div class="flex-row-boxs">
+          <div class="flex-row-top main-box">
+            <div class="flex-row-center" style="padding: 20px 0 0 16px">
+              <div>
+                <img src="images/Frame 21688.svg" alt="" class="icon" />
+              </div>
+              <div style="padding-left: 8px">
+                <h4>.NET Developer</h4>
+                <span class="span-400-16">IBM</span>
+              </div>
+            </div>
+            <div class="span-400-14 flex-row-job">
+              <span class="job">Backend</span>
+              <span class="job">.NET</span>
+              <span class="job">.NET CORE</span>
+            </div>
+            <div class="flex-row-center main-info">
+              <img src="images/solar_wallet-money-outline.svg" alt="" />
+              <span class="span-500-16" style="padding: 0 111px 0 8px"
+                >$19k/month</span
+              >
+              <span class="span-400-14" style="color: #21212199"
+                >2 hours ago</span
+              >
+            </div>
+          </div>
+          <!-- second box -->
+          <div class="flex-row-top main-box">
+            <div class="flex-row-center" style="padding: 20px 0 0 16px">
+              <div>
+                <img src="images/logos_facebook.svg" alt="" class="icon" />
+              </div>
+              <div style="padding-left: 8px">
+                <h4>Platforms Engineer</h4>
+                <span class="span-400-16">Facebook</span>
+              </div>
+            </div>
+            <div class="span-400-14 flex-row-job">
+              <span class="job">DevOps</span>
+              <span class="job">Ansible</span>
+              <span class="job">Linux</span>
+              <span class="job">Networks</span>
+            </div>
+            <div class="flex-row-center main-info">
+              <img src="images/solar_wallet-money-outline.svg" alt="" />
+              <span class="span-500-16" style="padding: 0 111px 0 8px"
+                >$7k/month</span
+              >
+              <span class="span-400-14" style="color: #21212199"
+                >1 day ago</span
+              >
+            </div>
+          </div>
+        </div>
+      </main>
     </div>
-    <aside></aside>
+    <aside>
+      <div style="border-bottom: 1px solid #00000029; padding-bottom: 28px">
+        <div>
+          <img src="images/logos_netflix-icon.svg" alt="" class="icon" />
+        </div>
+        <h2 style="padding: 16px 0 4px 0">Backend .Net Developer</h2>
+        <div>
+          <span
+            class="span-400-16"
+            style="display: inline-block; padding-bottom: 16px"
+            >Neflix</span
+          >
+        </div>
+        <span class="span-400-14 pink">+100 Applicants</span>
+      </div>
+      <div style="border-bottom: 1px solid #00000029; padding-bottom: 24px">
+        <h3 style="padding: 24px 0 18px 0">Description</h3>
+        <p>
+          Netflix is seeking a highly skilled and motivated Backend .NET
+          Developer to join our talented engineering team. As a Backend .NET
+          Developer, you will play a crucial role...
+          <span style="color: #ff60a3; text-decoration: underline"
+            >read more</span
+          >
+        </p>
+      </div>
+      <div style="border-bottom: 1px solid #00000029; padding-bottom: 24px">
+        <h3 style="padding: 24px 0 11px 0">Skills</h3>
+        <div class="span-400-14 flex-row-job" style="padding: 0px">
+          <span class="job">Fullstack</span>
+          <span class="job">Angular</span>
+          <span class="job">Azure</span>
+          <span class="job">C#</span>
+        </div>
+      </div>
+      <div>
+        <h3 style="padding: 24px 0 16px 0">Based salary</h3>
+        <span class="span-500-16" style="color: #21212199;">$13k/month</span>
+      </div>
+      <div style="padding: 141px 27px 32px 24px;">
+      <button style="width: 360px; height: 50px;">Apply Now</button>
+      </div>
+    </aside>
   </body>
 </html>

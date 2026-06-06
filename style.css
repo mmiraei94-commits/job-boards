@@ -1,21 +1,56 @@
+@font-face {
+  font-family: "poppins";
+  src: url(fonts/Poppins/Poppins-Regular.ttf);
+}
 * {
   padding: 0;
   margin: 0;
   height: 100hv;
+  font-family: poppins;
 }
 body {
   padding: 50px;
 }
-.flex-row {
+h1 {
+  font-size: 24px;
+  font-weight: 800;
+  color: #212121;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #212121;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 600;
+  color: #212121;
+}
+h4 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #212121;
+  padding-bottom: 7px;
+}
+.span-500-16 {
+  font-size: 16px;
+  font-weight: 500;
+}
+.span-400-16 {
+  font-size: 16px;
+  font-weight: 400;
+  color: #21212199;
+}
+.span-400-14 {
+  font-size: 14px;
+  font-weight: 400;
+}
+.flex-row-center {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
 }
-/* .header-form {
-  width: 570px;
-  height: 50px;
-} */
 input {
   border: none;
   outline: none;
@@ -32,6 +67,8 @@ header {
   width: 767px;
   height: 98px;
   border-radius: 16px;
+  margin: 0 30px 20px 0;
+  align-items: center;
 }
 #header-input-1 {
   width: 394px;
@@ -39,7 +76,6 @@ header {
   border-right: 1px solid #21212152;
   background-color: white;
   border-radius: 16px 0 0 16px;
-
 }
 #header-input-2 {
   width: 176px;
@@ -47,7 +83,6 @@ header {
   border-radius: 0 16px 16px 0;
   background-color: white;
   font-size: 30px;
-
 }
 input::placeholder {
   font-size: 17px;
@@ -65,4 +100,70 @@ button {
 }
 button:hover {
   background-color: #c42e6c;
+}
+main {
+  background-color: #f1f0f6;
+  box-shadow: 2px 0px 40px 0px #0000001f;
+  width: 767px;
+  height: 773px;
+  border-radius: 16px;
+}
+/* main div {
+  align-items: baseline;
+} */
+main h1 {
+  padding: 30px 389px 32.5px 24px;
+}
+.icon {
+  width: 64px;
+  height: 64px;
+  background-color: #21212114;
+  border-radius: 8px;
+  /* margin: 20px 8px 0 16px; */
+}
+.main-box {
+  background-color: white;
+  width: 347px;
+  height: 205px;
+  border-radius: 24px;
+}
+.main-box:hover {
+  scale: 1.1;
+}
+.job {
+  background-color: #21212114;
+  border-radius: 99px;
+  padding: 4px 8px;
+}
+.flex-row-job {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: top;
+  gap: 10px;
+  padding: 16px 0 32px 16px;
+}
+.main-info {
+  padding-left: 17.04px;
+}
+.flex-row-boxs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 23.5px;
+}
+aside {
+  background-color: white;
+   box-shadow: 2px 0px 40px 0px #0000001f;
+   width: 411px;
+   height: 827px;
+   border-radius: 32px;
+   padding: 32px 24px;
+}
+.pink {
+  color: #FF60A3;
+  background-color: #FFE4EF;
+  border-radius: 99px;
+  padding: 4px 8px;
 }
